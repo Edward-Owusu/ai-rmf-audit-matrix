@@ -2,6 +2,8 @@
 
 [![tests](https://github.com/Edward-Owusu/ai-rmf-audit-matrix/actions/workflows/tests.yml/badge.svg)](https://github.com/Edward-Owusu/ai-rmf-audit-matrix/actions/workflows/tests.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![DOI](https://zenodo.org/badge/1409219191.svg)](https://doi.org/10.5281/zenodo.23221698)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ai-rmf-audit-matrix.streamlit.app/)
 
 An open-source tool for auditing how an organization manages the risks of the **artificial intelligence** it uses. It scores AI risk management maturity across the four functions of the **NIST AI Risk Management Framework (AI RMF)**, Govern, Map, Measure, and Manage, risk-tiers every AI system in use (including **AI switched on inside vendor products**), and maps each gap to an AI RMF subcategory and to the risks in the **NIST Generative AI Profile (NIST AI 600-1)**.
 
@@ -66,6 +68,7 @@ Open the HTML file in the `reports` folder for the radar, audit matrix, and reme
 pip install -r requirements.txt
 streamlit run app/streamlit_app.py
 ```
+Try the hosted version at **https://ai-rmf-audit-matrix.streamlit.app/** (sample data only; do not upload confidential information to the public demo), or run it locally:
 
 ### Use in automation
 

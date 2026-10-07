@@ -6,8 +6,10 @@ authors:
     given-names: Edward
 version: 0.1.0
 date-released: 2026-10-07
+doi: 10.5281/zenodo.23221698
 license: MIT
 repository-code: "https://github.com/Edward-Owusu/ai-rmf-audit-matrix"
+url: "https://ai-rmf-audit-matrix.streamlit.app/"
 keywords:
   - artificial intelligence
   - AI risk management
