@@ -1,0 +1,2 @@
+system,owner,vendor,use_case,decision_impact,data_sensitivity,generative,customer_facing,human_review,impact_assessment_date,bias_tested,monitoring,vendor_reviewed,incident_process,documented,user_disclosure,data_use_restricted
+Example system,Business owner,internal,What the system does,none,internal,false,false,true,,false,false,false,false,false,false,false

@@ -1,0 +1,27 @@
+{
+  "sources": "NIST AI RMF 1.0 (AI 100-1) subcategories; generative AI risks from the NIST AI RMF Generative AI Profile (NIST AI 600-1).",
+  "checks": [
+    {"id": "SYS-01", "function": "GOVERN", "title": "No accountable owner", "severity": "high", "rmf": ["GOVERN 2.1"], "genai": [],
+     "remediation": "Name a business owner who is accountable for the system's use, risks, and outcomes."},
+    {"id": "SYS-02", "function": "MAP", "title": "No impact assessment", "severity": "high", "rmf": ["MAP 5.1", "MAP 1.1"], "genai": [],
+     "remediation": "Assess who the system affects, how, and what could go wrong, and record the decision to deploy."},
+    {"id": "SYS-03", "function": "MAP", "title": "Decisions about people made without human review", "severity": "critical", "rmf": ["MAP 3.5", "MANAGE 2.4"], "genai": ["Human-AI Configuration"],
+     "remediation": "Require a person to review and be able to override the AI output before it affects anyone."},
+    {"id": "SYS-04", "function": "MEASURE", "title": "Not evaluated for harmful bias", "severity": "high", "rmf": ["MEASURE 2.11"], "genai": ["Harmful Bias and Homogenization"],
+     "remediation": "Test outcomes across relevant groups before use and periodically after; ask the vendor for its bias testing evidence."},
+    {"id": "SYS-05", "function": "MEASURE", "title": "Not monitored in production", "severity": "medium", "rmf": ["MEASURE 2.4", "MANAGE 4.1"], "genai": [],
+     "remediation": "Define what good performance looks like and review errors, complaints, and drift on a schedule."},
+    {"id": "SYS-06", "function": "MANAGE", "title": "Vendor AI not reviewed", "severity": "high", "rmf": ["GOVERN 6.1", "MANAGE 3.1"], "genai": ["Value Chain and Component Integration"],
+     "remediation": "Review the vendor's AI documentation, data handling, and security terms before and after deployment."},
+    {"id": "SYS-07", "function": "MEASURE", "title": "Vendor may use your data to train its models", "severity": "high", "rmf": ["MEASURE 2.10", "MAP 4.1"], "genai": ["Data Privacy", "Information Security"],
+     "remediation": "Use an enterprise agreement or setting that prohibits training on your data, or keep personal data out of the tool."},
+    {"id": "SYS-08", "function": "MEASURE", "title": "People are not told they are interacting with AI", "severity": "medium", "rmf": ["MEASURE 2.8"], "genai": ["Human-AI Configuration"],
+     "remediation": "Tell customers and users when they are interacting with AI or receiving AI-generated content."},
+    {"id": "SYS-09", "function": "MANAGE", "title": "Generative output reaches customers without review", "severity": "high", "rmf": ["MEASURE 2.5", "MANAGE 2.4"], "genai": ["Confabulation", "Information Integrity"],
+     "remediation": "Limit the system to approved sources, add guardrails, and route sensitive or uncertain answers to a person."},
+    {"id": "SYS-10", "function": "MANAGE", "title": "No AI incident process", "severity": "medium", "rmf": ["MANAGE 4.3"], "genai": [],
+     "remediation": "Define how AI errors and harms are reported, investigated, and communicated, and who can pause the system."},
+    {"id": "SYS-11", "function": "MAP", "title": "Purpose and limits not documented", "severity": "low", "rmf": ["MAP 1.1", "MAP 2.2"], "genai": [],
+     "remediation": "Document the intended purpose, users, inputs, known limitations, and uses that are not allowed."}
+  ]
+}

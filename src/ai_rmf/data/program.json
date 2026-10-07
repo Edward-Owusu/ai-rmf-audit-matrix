@@ -1,0 +1,29 @@
+{
+  "source": "Practices aligned to the NIST AI Risk Management Framework (AI RMF 1.0, NIST AI 100-1). Subcategory references indicate the closest AI RMF outcome; questions are plain-language aids written for this tool.",
+  "functions": {
+    "GOVERN": "A culture of risk management is cultivated and present",
+    "MAP": "Context is recognized and risks related to context are identified",
+    "MEASURE": "Identified risks are assessed, analyzed, or tracked",
+    "MANAGE": "Risks are prioritized and acted upon based on projected impact"
+  },
+  "practices": [
+    {"id": "G-01", "function": "GOVERN", "ref": "GOVERN 1.1", "weight": 1, "text": "Legal and regulatory requirements that apply to the organization's use of AI have been identified."},
+    {"id": "G-02", "function": "GOVERN", "ref": "GOVERN 1.2", "weight": 2, "text": "An approved AI use policy sets out acceptable uses, prohibited uses, and approval requirements."},
+    {"id": "G-03", "function": "GOVERN", "ref": "GOVERN 1.6", "weight": 2, "text": "An inventory of AI systems, including AI features in vendor products, is maintained."},
+    {"id": "G-04", "function": "GOVERN", "ref": "GOVERN 2.1", "weight": 2, "text": "Roles and accountability for AI risk are assigned, with a named executive owner."},
+    {"id": "G-05", "function": "GOVERN", "ref": "GOVERN 2.2", "weight": 1, "text": "Staff who use or oversee AI are trained on the policy and on AI risks."},
+    {"id": "G-06", "function": "GOVERN", "ref": "GOVERN 6.1", "weight": 2, "text": "Purchases of AI products and AI features are reviewed for risk before use."},
+    {"id": "P-01", "function": "MAP", "ref": "MAP 1.1", "weight": 1, "text": "The intended purpose, users, and context of each AI system are documented."},
+    {"id": "P-02", "function": "MAP", "ref": "MAP 5.1", "weight": 2, "text": "Impacts on individuals and the organization are assessed before an AI system is deployed."},
+    {"id": "P-03", "function": "MAP", "ref": "MAP 3.5", "weight": 2, "text": "Human oversight is defined for AI systems that affect people or decisions."},
+    {"id": "P-04", "function": "MAP", "ref": "MAP 4.1", "weight": 1, "text": "Risks from third-party data, models, and software are identified."},
+    {"id": "S-01", "function": "MEASURE", "ref": "MEASURE 2.3", "weight": 1, "text": "Accuracy and performance are tested before deployment against defined criteria."},
+    {"id": "S-02", "function": "MEASURE", "ref": "MEASURE 2.11", "weight": 2, "text": "Systems that affect people are evaluated for harmful bias."},
+    {"id": "S-03", "function": "MEASURE", "ref": "MEASURE 2.10", "weight": 2, "text": "Privacy risks, including use of personal data by AI vendors, are evaluated."},
+    {"id": "S-04", "function": "MEASURE", "ref": "MEASURE 2.4", "weight": 2, "text": "AI systems are monitored in production for errors, drift, and misuse."},
+    {"id": "N-01", "function": "MANAGE", "ref": "MANAGE 1.3", "weight": 1, "text": "Identified AI risks have documented responses and owners."},
+    {"id": "N-02", "function": "MANAGE", "ref": "MANAGE 2.4", "weight": 2, "text": "There is a way to override, pause, or switch off an AI system if it behaves unexpectedly."},
+    {"id": "N-03", "function": "MANAGE", "ref": "MANAGE 4.3", "weight": 2, "text": "AI incidents and errors are reported, tracked, and communicated to affected parties."},
+    {"id": "N-04", "function": "MANAGE", "ref": "MANAGE 3.1", "weight": 2, "text": "Third-party AI products are monitored for changes and new risks after purchase."}
+  ]
+}

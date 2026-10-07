@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "ai_rmf: NIST AI Risk Management Framework Audit Matrix for Small and Mid-Sized Organizations"
+authors:
+  - family-names: Owusu
+    given-names: Edward
+version: 0.1.0
+date-released: 2026-10-07
+license: MIT
+repository-code: "https://github.com/Edward-Owusu/ai-rmf-audit-matrix"
+keywords:
+  - artificial intelligence
+  - AI risk management
+  - NIST AI RMF
+  - generative AI
+  - AI governance
+  - third-party risk

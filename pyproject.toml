@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ai-rmf-audit-matrix"
+version = "0.1.0"
+description = "NIST AI RMF maturity scoring, AI system inventory risk tiering, and Generative AI Profile gap mapping for small and mid-sized organizations"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Edward Owusu"}]
+keywords = ["ai risk management", "nist ai rmf", "ai governance", "generative ai", "ai audit", "ai inventory", "grc", "compliance"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Topic :: Security",
+]
+
+[project.urls]
+Homepage = "https://github.com/Edward-Owusu/ai-rmf-audit-matrix"
+
+[project.scripts]
+ai-rmf = "ai_rmf.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+ai_rmf = ["data/*.json"]

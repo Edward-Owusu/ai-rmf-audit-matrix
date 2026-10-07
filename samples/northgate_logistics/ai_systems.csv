@@ -1,0 +1,5 @@
+system,owner,vendor,use_case,decision_impact,data_sensitivity,generative,customer_facing,human_review,impact_assessment_date,bias_tested,monitoring,vendor_reviewed,incident_process,documented,user_disclosure,data_use_restricted
+Route optimization,Fleet Operations,internal,Plans delivery routes and loads,none,internal,false,false,true,2026-03-10,false,true,false,true,true,false,false
+Shipment status assistant,Customer Experience,AssistIQ,Answers shipment tracking questions for customers,none,personal,true,true,true,2026-04-02,false,true,true,true,true,true,true
+Driver safety scoring,Safety,SafeFleet,Flags risky driving events for coaching,advisory,personal,false,false,true,2026-02-18,true,true,true,true,true,false,false
+Invoice data extraction,Finance,DocuRead,Reads supplier invoices into the accounting system,none,internal,false,false,true,,false,false,true,false,false,false,false

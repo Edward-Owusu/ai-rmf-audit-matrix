@@ -1,0 +1,8 @@
+system,owner,vendor,use_case,decision_impact,data_sensitivity,generative,customer_facing,human_review,impact_assessment_date,bias_tested,monitoring,vendor_reviewed,incident_process,documented,user_disclosure,data_use_restricted
+Customer service chatbot,Retail Banking,HelpBot Cloud,Answers account and product questions on the website,none,personal,true,true,false,,false,false,false,false,false,false,false
+Resume screening tool,,TalentSift,Ranks job applicants before recruiter review,consequential,personal,false,false,false,,false,false,false,false,false,false,false
+Loan pre-qualification model,Consumer Lending,internal,Scores applicants for personal loan pre-qualification,consequential,sensitive,false,true,true,2024-06-15,false,true,false,false,true,true,false
+Meeting transcription,Operations,NoteStream,Transcribes and summarizes internal meetings,none,personal,true,false,false,,false,false,false,false,false,false,false
+Marketing copy generator,Marketing,WriteWell AI,Drafts email and social posts for campaigns,none,none,true,true,false,,false,false,true,false,false,false,true
+Fraud alert scoring,Fraud Operations,FinGuard,Flags card transactions for analyst review,advisory,sensitive,false,false,true,2025-11-20,true,true,true,true,true,false,true
+Code assistant,IT,CodePilot,Suggests code to the internal development team,none,internal,true,false,true,,false,false,false,false,false,false,false

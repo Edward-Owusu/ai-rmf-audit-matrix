@@ -1,0 +1,24 @@
+{
+  "organization": "Northgate Logistics (fictional)",
+  "assessment_date": "2026-09-30",
+  "answers": {
+    "G-01": "yes",
+    "G-02": "yes",
+    "G-03": "yes",
+    "G-04": "yes",
+    "G-05": "partial",
+    "G-06": "yes",
+    "P-01": "yes",
+    "P-02": "yes",
+    "P-03": "yes",
+    "P-04": "yes",
+    "S-01": "yes",
+    "S-02": "partial",
+    "S-03": "yes",
+    "S-04": "yes",
+    "N-01": "yes",
+    "N-02": "yes",
+    "N-03": "yes",
+    "N-04": "partial"
+  }
+}

@@ -1,0 +1,8 @@
+# Theme for this dashboard: midnight navy and cyan on a pale background, distinct from the other tools in the series.
+[theme]
+base = "light"
+primaryColor = "#0891B2"
+backgroundColor = "#F4F7FB"
+secondaryBackgroundColor = "#E1ECF4"
+textColor = "#0B1B33"
+font = "sans serif"
